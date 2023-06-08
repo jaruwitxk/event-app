@@ -1,0 +1,36 @@
+<div class="container">
+  <h1>create-event</h1>
+  <label class="form-label">ข้อมูลผู้แจ้ง</label>
+  <div class="row">
+    <div class="col-lg-4">
+      <label>ชื่อ</label>
+      <input class="form-control" type="text" id="FirstName" />
+    </div>
+    <div class="col-lg-4">
+      <label>นามสกุล</label>
+      <input class="form-control" type="text" id="LastName" />
+    </div>
+    <div class="col-lg-4">
+      <label> เบอร์โทร</label>
+      <input class="form-control" type="text" id="Telephone" />
+    </div>
+  </div>
+  <br />
+  <div class="w-70">
+    <label class="form-label">ข้อมูลเหตุการณ์</label>
+    <div>
+      เหตุการณ์
+      <input type="text" id="Event" class="form-control" />
+    </div>
+    <div>
+      สถานที่
+      <input type="text" id="Address" class="form-control" />
+    </div>
+    <br />
+    <div class="d-flex justify-content-end">
+      <button type="submit" class="btn btn-primary ms-2" (click)="onSubmit()">
+        สร้างรายการ
+      </button>
+    </div>
+  </div>
+</div>
