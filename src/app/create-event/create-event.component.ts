@@ -12,4 +12,8 @@ export class CreateEventComponent {
   onSubmit(): void {
     this.router.navigate(['/event-list']);
   }
+
+  goBack(): void {
+    this.router.navigate(['/event-list']);
+  }
 }
